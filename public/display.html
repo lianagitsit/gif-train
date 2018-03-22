@@ -7,15 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="welcome.js"></script>
+    <script src="display.js"></script>
 </head>
 <body>
     <h1>All Aboard the Gif Express(js)!</h1>
-    <h3>Welcome, <span id="name"></span>!</h3>
-    <p>What would you like to see?</p>
-    <form action="/display" method="post">
-        <input type="text" name="topicInput">
-        <input type="submit" value="submit">
-    </form>
+    <!-- <h3>Welcome, <span id="name"></span>!</h3> -->
+    <p>Here are your results:</p>
+    <div id="resultsDisplay">
+    </div>
+    <p><a href="/">Go back home.</a></p>
 </body>
 </html>
